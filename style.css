@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'MedievalSharp', 'Old English Text MT', 'Arial', sans-serif;
+    background: #111;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ffffffcc;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+h1:hover span {
+    animation: move 1.5s ease-out forwards;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+@keyframes move {
+    to {
+        transform: translate(calc(-50% + var(--random-x)),
+                calc(-50% + var(--random-y)));
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 0.8em;
+        padding: 0 10px;
+        
+    }
+}
