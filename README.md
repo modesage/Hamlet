@@ -12,7 +12,7 @@ This project features a simple HTML, CSS, and JavaScript webpage that uses a fam
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/Hamlet.git`
+1. Clone the repository: `git clone https://github.com/modesage/Hamlet.git`
 2. Open `index.html` in a web browser.
 
 Explore, modify, and adapt the code to your preferences or integrate it into your projects.
